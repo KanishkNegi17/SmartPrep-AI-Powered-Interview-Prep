@@ -2,7 +2,7 @@ import React from 'react'
 import { LuTrash2 } from 'react-icons/lu'
 import { getInitials } from '../../utils/helper'
 
-const SummaryCard = ({key, colors, role, topicsToFocus, experience, questions, description, lastUpdated, onSelect, onDelete}) => {
+const SummaryCard = ({ colors, role, topicsToFocus, experience, questions, description, lastUpdated, onSelect, onDelete}) => {
   return (
     <div className='bg-white border border-gray-300/40 rounded-xl p-2 overflow-hidden cursor-pointer hover:shadow-xl shadow-gray-100 relative group' 
     onClick={onSelect}>

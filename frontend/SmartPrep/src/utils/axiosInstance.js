@@ -35,6 +35,7 @@ axiosInstance.interceptors.response.use(
         if(error.response){
             if(error.response.status === 401){
                 //Redirect Login
+                console.log("HI")
                 window.location.href = "/"
             }else if(error.response.status === 500){
                 console.error("Server Error. Please Try again Later");
