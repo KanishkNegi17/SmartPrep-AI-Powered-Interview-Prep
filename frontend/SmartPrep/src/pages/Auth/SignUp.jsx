@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import Input from '../../components/Cards/Inputs/input'
+import Input from '../../components/Cards/Inputs/Input'
 import ProfilePhotoSelector from '../../components/Cards/Inputs/ProfilePhotoSelector'
 import { validateEmail } from '../../utils/helper'
 import { useContext } from 'react'

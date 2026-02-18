@@ -14,13 +14,13 @@ const { generateInterviewQuestions, generateConceptExplanation } = require("./co
 const app = express()
 
 //MiddleWare To Handle Cors
-app.use(
-    cors({
-        origin:"*",
-        methods:["GET","POST","PUT","DELETE"],
-        allowedHeaders: ["Content-Type","Authorization"],
-    })
-)
+    app.use(
+        cors({
+            origin:"*",
+            methods:["GET","POST","PUT","DELETE"],
+            allowedHeaders: ["Content-Type","Authorization"],
+        })
+    )
 
 connectDB()
 
